@@ -17,7 +17,7 @@ public class OpenApiConfig {
 	@Bean
 	public OpenAPI customOpenAPI() {
 		return new OpenAPI().components(new Components())
-				.info(new Info().title("Delivery API").description("Este é um serviço RESTful feito com Spring Boot."));
+				.info(new Info().title("API Delivery").description("Este é um serviço RESTful feito com Spring Boot."));
 	}
 
 	@Bean
